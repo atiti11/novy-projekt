@@ -6,8 +6,6 @@ students = [
     {"jméno": "Tomáš", "příjmení": "Král", "věk": 23}
 ]
 
-students.reverse()
-
 for student in students:
     print("jméno:", student["jméno"], end= ", ")
     print("příjmení:", student["příjmení"], end= ", ")
