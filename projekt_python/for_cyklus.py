@@ -11,3 +11,5 @@ for student in students:
     print("příjmení:", student["příjmení"], end=", ")
     print("věk:", student["věk"])
     print("---------")
+
+print("Konec programu")
